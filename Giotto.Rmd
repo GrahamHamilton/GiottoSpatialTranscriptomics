@@ -1,5 +1,5 @@
 ---
-title: "R Notebook"
+title: "Giotto R Notebook"
 output: html_notebook
 ---
 
@@ -19,8 +19,6 @@ genv_exists <- checkGiottoEnvironment()
 if(!genv_exists){
   # The following command need only be run once to install the Giotto environment.
   installGiottoEnvironment(force_environment = TRUE)
-  
-# library("tidyverse")
 }
 ```
 
